@@ -1,0 +1,47 @@
+.panel-right {
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.panel-right-phone {
+  width: 90%;
+  height: 370px;
+  background-color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.panel-right-phone-screen {
+  width: 90%;
+  height: 300px;
+  background-color: rgba(153, 153, 174, 0.7);
+  margin-left: auto;
+  margin-right: auto;
+}
+.panel-right-phone-screen:hover {
+  background-color: #fff;
+}
+.panel-right-phone-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.panel-right-phone-button:hover {
+  background-color: #cf9;
+  border: 2px solid rgba(0, 0, 0, 0.718);
+}
+@media (min-width: 576px) {
+  .panel-right-phone {
+    height: 570px;
+  }
+  .panel-right-phone-screen {
+    height: 500px;
+  }
+}
