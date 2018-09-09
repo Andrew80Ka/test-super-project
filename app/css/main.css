@@ -170,6 +170,11 @@ body {
   padding-right: 50px;
   height: 100%;
 }
+.panel-left-heading {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
 .panel-left-button {
   color: #FFF;
   text-transform: uppercase;
@@ -180,15 +185,46 @@ body {
   border: 2px solid #fff;
   -webkit-border-radius: 30px;
   border-radius: 30px;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+.panel-left-button:hover {
+  background-color: #0c0;
 }
 .panel-left-text {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  padding: 10px 15px;
+  border: 2px solid #06f;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+.panel-left-text:hover {
+  border: 2px solid #0c0;
 }
 .panel-left-img {
   display: inline-block;
   width: 50%;
   margin: 0;
   padding: 0;
+  border: 2px solid #06f;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+.panel-left-img:hover {
+  border: 2px solid #0c0;
 }
 .panel-right {
   height: 100%;
@@ -211,6 +247,11 @@ body {
   background-color: rgba(153, 153, 174, 0.7);
   margin-left: auto;
   margin-right: auto;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 .panel-right-phone-screen:hover {
   background-color: #fff;
@@ -221,13 +262,18 @@ body {
   margin-top: 10px;
   width: 30px;
   height: 30px;
-  border: 2px solid #fff;
+  cursor: pointer;
+  border: 3px solid #06f;
   -webkit-border-radius: 15px;
   border-radius: 15px;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 .panel-right-phone-button:hover {
-  background-color: #cf9;
-  border: 2px solid rgba(0, 0, 0, 0.718);
+  background-color: #fff;
 }
 @media (min-width: 576px) {
   .panel-right-phone {

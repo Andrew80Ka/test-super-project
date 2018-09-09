@@ -19,6 +19,11 @@
   background-color: rgba(153, 153, 174, 0.7);
   margin-left: auto;
   margin-right: auto;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 .panel-right-phone-screen:hover {
   background-color: #fff;
@@ -29,13 +34,18 @@
   margin-top: 10px;
   width: 30px;
   height: 30px;
-  border: 2px solid #fff;
+  cursor: pointer;
+  border: 3px solid #06f;
   -webkit-border-radius: 15px;
   border-radius: 15px;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 .panel-right-phone-button:hover {
-  background-color: #cf9;
-  border: 2px solid rgba(0, 0, 0, 0.718);
+  background-color: #fff;
 }
 @media (min-width: 576px) {
   .panel-right-phone {
